@@ -8,7 +8,7 @@ function setup(){
     poseNet.on("pose",gotposes);
 }
 function modelLoaded(){
-    console.log("poseNet is intialised");
+    console.log("pose net is intialised");
 }
 function gotposes(results){
     if(results.length > 0){
